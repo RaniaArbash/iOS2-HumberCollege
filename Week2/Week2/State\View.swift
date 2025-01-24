@@ -20,7 +20,6 @@ struct StateView: View {
                     counter -= 1
                 }
             }
-            
         }
         .padding()
     }

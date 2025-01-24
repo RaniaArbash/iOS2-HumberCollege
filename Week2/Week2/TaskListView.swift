@@ -33,7 +33,7 @@ struct TaskListView: View {
                             Spacer()
                             Toggle("", isOn: $taskViewModel.tasks[taskViewModel.tasks.firstIndex(where: { $0.id == task.id })!].isCompleted)
                            
-                            
+                   
                         }
                     }
                 }
