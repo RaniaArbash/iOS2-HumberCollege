@@ -11,7 +11,7 @@ import SwiftUI
 struct Week3_ProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            Animation()
+            MainView()
         }
     }
 }

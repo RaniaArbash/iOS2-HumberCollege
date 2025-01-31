@@ -22,7 +22,9 @@ struct Animation: View {
         }
     }
 }
+ 
 
 #Preview {
     Animation()
 }
+
