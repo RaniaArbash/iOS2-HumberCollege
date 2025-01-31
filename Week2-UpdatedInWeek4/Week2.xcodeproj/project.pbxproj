@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211AB26A2D4D31D900771D63 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211AB2692D4D31D900771D63 /* EditTaskView.swift */; };
 		216259FA2D3AAF720034B59A /* Week2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216259F92D3AAF720034B59A /* Week2App.swift */; };
 		216259FC2D3AAF720034B59A /* State\View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216259FB2D3AAF720034B59A /* State\View.swift */; };
 		216259FE2D3AAF740034B59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216259FD2D3AAF740034B59A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211AB2692D4D31D900771D63 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		216259F62D3AAF710034B59A /* Week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216259F92D3AAF720034B59A /* Week2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2App.swift; sourceTree = "<group>"; };
 		216259FB2D3AAF720034B59A /* State\View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State\\View.swift"; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				216259FF2D3AAF740034B59A /* Preview Content */,
 				21625A092D3ABC140034B59A /* Model.swift */,
 				21625A0B2D3ABD570034B59A /* TaskListView.swift */,
+				211AB2692D4D31D900771D63 /* EditTaskView.swift */,
 			);
 			path = Week2;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				216259FC2D3AAF720034B59A /* State\View.swift in Sources */,
 				216259FA2D3AAF720034B59A /* Week2App.swift in Sources */,
 				21625A0C2D3ABD570034B59A /* TaskListView.swift in Sources */,
+				211AB26A2D4D31D900771D63 /* EditTaskView.swift in Sources */,
 				21625A082D3AB27E0034B59A /* BindingView.swift in Sources */,
 				21625A0A2D3ABC140034B59A /* Model.swift in Sources */,
 			);

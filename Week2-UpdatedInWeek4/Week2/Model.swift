@@ -34,6 +34,18 @@ class TaskViewModel : ObservableObject {
         tasks.remove(at: taskindex)
     }
     
+    func updateOneTask(taskToUpdate: Task, newTask: String ){
+        taskToUpdate.name = newTask
+        var index = tasks.firstIndex { t in
+            t.id == taskToUpdate.id
+        }
+        if let goodIndex = index {
+            tasks[goodIndex] = taskToUpdate
+        }
+    }
+    
+    
+    
     
 }
 

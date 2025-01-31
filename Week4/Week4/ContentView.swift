@@ -90,7 +90,6 @@ struct SixthView: View {
         self._newName = State(initialValue: name)
      }
     
-    
     var body: some View {
          
        TextField("Enter the name to update", text: $newName)
