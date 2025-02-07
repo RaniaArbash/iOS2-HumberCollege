@@ -52,7 +52,7 @@ struct SecondView: View {
         Text("In Second View")
     }
 }
-// Third View get on string value from first view
+// Third View get one string value from first view
 struct ThirdView: View {
     var dataFromFirstView : String
     var body: some View {
