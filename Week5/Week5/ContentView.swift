@@ -10,6 +10,8 @@ import SwiftUI
 struct UsersListView: View {
     
    @EnvironmentObject var usersVM : UserViewModel
+    @State var isButtonClicked = false
+
     
     var body: some View {
         ZStack {
@@ -35,7 +37,7 @@ struct UsersListView: View {
                 HStack {
                     Spacer()
                     Button(action: {
-                        
+                        isButtonClicked = true
                     }) {
                         Image(systemName: "plus")
                             .font(.system(size: 24, weight: .bold))
@@ -47,6 +49,11 @@ struct UsersListView: View {
                     }
                 }
             }
+            .padding()
+            .sheet(isPresented: $isButtonClicked, content: {
+                UserFormView().environment(usersVM)
+            })
+            
         }
     }
 }

@@ -14,6 +14,8 @@
 		21894D432D565F090055E721 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21894D422D565F090055E721 /* UserModel.swift */; };
 		21894D452D565FDB0055E721 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21894D442D565FDB0055E721 /* UserViewModel.swift */; };
 		21894D472D56614A0055E721 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 21894D462D56614A0055E721 /* users.json */; };
+		21894D492D566AD60055E721 /* UserFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21894D482D566AD60055E721 /* UserFormView.swift */; };
+		21894D4B2D566FC90055E721 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21894D4A2D566FC90055E721 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		21894D422D565F090055E721 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		21894D442D565FDB0055E721 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		21894D462D56614A0055E721 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		21894D482D566AD60055E721 /* UserFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormView.swift; sourceTree = "<group>"; };
+		21894D4A2D566FC90055E721 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				21894D422D565F090055E721 /* UserModel.swift */,
 				21894D442D565FDB0055E721 /* UserViewModel.swift */,
 				21894D462D56614A0055E721 /* users.json */,
+				21894D482D566AD60055E721 /* UserFormView.swift */,
+				21894D4A2D566FC90055E721 /* ImagePicker.swift */,
 			);
 			path = Week5;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21894D492D566AD60055E721 /* UserFormView.swift in Sources */,
 				21894D372D565EF10055E721 /* ContentView.swift in Sources */,
 				21894D452D565FDB0055E721 /* UserViewModel.swift in Sources */,
+				21894D4B2D566FC90055E721 /* ImagePicker.swift in Sources */,
 				21894D432D565F090055E721 /* UserModel.swift in Sources */,
 				21894D352D565EF10055E721 /* Week5App.swift in Sources */,
 			);
