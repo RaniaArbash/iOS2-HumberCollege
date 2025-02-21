@@ -19,8 +19,7 @@ struct ContentView: View {
                       onCommit: {
                          viewModel.fetchImagesWithSearch()
             }).textFieldStyle(RoundedBorderTextFieldStyle())
-            
-            
+                
                 List(viewModel.images) { image in
                     AsyncImage(url: URL(string: image.urls.regular)) { img in
                         switch img {
