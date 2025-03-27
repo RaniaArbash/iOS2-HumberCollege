@@ -20,7 +20,7 @@
 		217B5B4B2D8D943D00853F90 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B5B4A2D8D943D00853F90 /* LogInView.swift */; };
 		217B5B4D2D8D947600853F90 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B5B4C2D8D947600853F90 /* SignUpView.swift */; };
 		217B5B4F2D8D94AD00853F90 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B5B4E2D8D94AD00853F90 /* ChatRoomView.swift */; };
-		217B5B532D8D972A00853F90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217B5B522D8D972A00853F90 /* GoogleService-Info.plist */; };
+		21FC9A9C2D95C8650073BD3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21FC9A9B2D95C8650073BD3D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		217B5B4A2D8D943D00853F90 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		217B5B4C2D8D947600853F90 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		217B5B4E2D8D94AD00853F90 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
-		217B5B522D8D972A00853F90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21FC9A9B2D95C8650073BD3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				217B5B2D2D8D910800853F90 /* authTestApp.swift */,
+				21FC9A9B2D95C8650073BD3D /* GoogleService-Info.plist */,
 				217B5B2F2D8D910800853F90 /* ContentView.swift */,
-				217B5B522D8D972A00853F90 /* GoogleService-Info.plist */,
 				217B5B312D8D910900853F90 /* Assets.xcassets */,
 				217B5B332D8D910900853F90 /* Preview Content */,
 				217B5B482D8D935A00853F90 /* AuthViewModel.swift */,
@@ -162,7 +162,7 @@
 			files = (
 				217B5B352D8D910900853F90 /* Preview Assets.xcassets in Resources */,
 				217B5B322D8D910900853F90 /* Assets.xcassets in Resources */,
-				217B5B532D8D972A00853F90 /* GoogleService-Info.plist in Resources */,
+				21FC9A9C2D95C8650073BD3D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
